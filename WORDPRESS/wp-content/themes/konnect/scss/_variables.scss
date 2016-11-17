@@ -1,0 +1,51 @@
+/* _variables.scss */
+
+// Colors
+$black: #121212;
+$gray: #807f83;
+$l-gray: #e6e5e6;
+$ll-gray: #f3f0f0;
+$white: #fff;
+
+// z-Index Scale
+$z1: 100;
+$z2: 200;
+$z3: 300;
+$z4: 400;
+$z5: 500;
+$z6: 600;
+$z7: 700;
+$z8: 800;
+$z9: 900;
+$z10: 1000;
+
+// Media Query Variables
+$small-5: 20;  // 320px *
+$small-4: 25;  // 400px
+$small-3: 30;  // 480px
+$small-2: 40;  // 640px
+$small: 43.125;  // 690px
+
+$med-4: 46.8;  // 748px
+$med-3: 48;  // 768px *
+$med-2: 50;  // 800px
+$med: 55;  // 880px
+
+$large-5: 58;  // 928px
+$large-4: 60;  // 960px
+$large-3: 64;  // 1024px
+$large-2: 68;  // 1088px
+$large: 75;  // 1200px
+
+$huge-2: 81.25;  // 1300px
+$huge: 90;  // 1440px *
+
+// $before-ipad-l: 1023px;
+// $ipad-l: 1024px;
+
+// $huge-2: 80;  // 1280px
+// $huge: 120;  // 1920px
+
+
+// Easing
+$ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
