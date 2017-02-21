@@ -29,3 +29,13 @@ node_modules
 # Vagrant
 bin
 .vagrant
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*

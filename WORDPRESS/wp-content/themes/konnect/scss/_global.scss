@@ -1,3 +1,90 @@
 * {
   box-sizing: border-box;
 }
+body {
+	margin: 0;
+	background: $black;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.h1 {
+	font-family: 'Roboto';
+	font-size: 50px;
+	font-weight: 100;
+	color: $white;
+}
+.site__copy {
+	font-family: 'Lato';
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 28px;
+	color: $white;
+
+}
+.icon-arrow-down {
+	width: 21px;
+	stroke: $white;
+	height: 31px;
+}
+.nav {
+	display: none;
+}
+#main {
+	position: relative;
+}
+.body-section {
+	position: relative;
+	display: block;
+
+	.landing__section {
+		height: 100vh;
+		position: relative;
+		.logo {
+			position: absolute;
+			top: 50px;
+			left: 0;
+			right: 0;
+			width: auto;
+			z-index: $z1;
+			text-align: center;
+
+			img {
+				width: auto;
+			}
+		}
+		.landing__img {
+			&.blur {
+				opacity: 1;
+			}
+			img {
+				position: fixed;
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				top: 0;
+				left: 0;
+				transition: all $slow; 
+			}
+		}
+	}
+	.branding__info {
+		position: relative;
+		top: calc(100vh - 60px);
+		text-align: center;
+	}
+	.info__section {
+		position: relative;
+		height: auto;
+		display: block;
+		.wrap {
+			text-align: center;
+			padding: 250px 0;
+			.site__copy {
+				max-width: 500px;
+				margin: 0 auto;
+			}
+		}
+	}
+}

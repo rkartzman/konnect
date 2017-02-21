@@ -6,7 +6,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#212121">
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:100,100i" rel="stylesheet">
+    
+    
 
     <link type="text/css" rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?ver=' . filemtime( get_stylesheet_directory() . '/style.css'); ?>">
     <?php global $og_description, $page_animate, $nav_animate; ?>
@@ -46,7 +48,7 @@
 
 <body class="scrolling-up<?=$page_animate_class . $nav_animate_class?>">
 
-
+<?php include 'templates/symbol-defs.svg'; ?>
     <div class="nav">
         <div class="inner">
             <?php if ( has_nav_menu('header-menu') ) : ?>

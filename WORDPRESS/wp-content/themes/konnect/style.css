@@ -2,6 +2,80 @@
 * {
   box-sizing: border-box; }
 
+body {
+  margin: 0;
+  background: #000000; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.h1 {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 100;
+  color: #fff; }
+
+.site__copy {
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff; }
+
+.icon-arrow-down {
+  width: 21px;
+  stroke: #fff;
+  height: 31px; }
+
+.nav {
+  display: none; }
+
+#main {
+  position: relative; }
+
+.body-section {
+  position: relative;
+  display: block; }
+  .body-section .landing__section {
+    height: 100vh;
+    position: relative; }
+    .body-section .landing__section .logo {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      width: auto;
+      z-index: 100;
+      text-align: center; }
+      .body-section .landing__section .logo img {
+        width: auto; }
+    .body-section .landing__section .landing__img.blur {
+      opacity: 1; }
+    .body-section .landing__section .landing__img img {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 0.6s;
+      transition: all 0.6s; }
+  .body-section .branding__info {
+    position: relative;
+    top: calc(100vh - 60px);
+    text-align: center; }
+  .body-section .info__section {
+    position: relative;
+    height: auto;
+    display: block; }
+    .body-section .info__section .wrap {
+      text-align: center;
+      padding: 250px 0; }
+      .body-section .info__section .wrap .site__copy {
+        max-width: 500px;
+        margin: 0 auto; }
+
 /* ==========================================================================
    NAVIGATION
    ========================================================================== */
@@ -111,7 +185,7 @@
         .nav .brands-toggle .icon-wrap:hover span::after {
           right: 0;
           left: 0;
-          background-color: #121212;
+          background-color: #000000;
           background-color: currentColor; }
     .nav .brands-toggle .icon-brand {
       position: relative;
@@ -185,12 +259,12 @@
         .nav ul a:hover::after {
           right: 10px;
           left: 10px;
-          background-color: #121212;
+          background-color: #000000;
           background-color: currentColor; }
     .nav ul .current-menu-item a::after {
       right: 10px;
       left: 10px;
-      background-color: #121212;
+      background-color: #000000;
       background-color: currentColor; }
   @media screen and (min-width: 25em) {
     .nav ul a {
